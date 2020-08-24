@@ -8,5 +8,5 @@ Copyright (C) 2020 Dmitriy Prigoda deamon.none@gmail.com This script is free sof
 ------------------------------------------------------------
 
 Протестировано на:
-- CentOS 8 
-- Ansible = 2.9.5
+  * CentOS 8 
+  * Ansible = 2.9.5
