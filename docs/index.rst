@@ -6,5 +6,4 @@
 .. toctree::
    :maxdepth: 2
    
-  Сценарий для создания пользователя для MaxPatrol <mpuser>
   Сценарий для насторойки правил auditd <auditd>
