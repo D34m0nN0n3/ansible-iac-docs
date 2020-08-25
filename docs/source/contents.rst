@@ -6,4 +6,5 @@
 .. toctree::
    :maxdepth: 2
    
-  Сценарий для насторойки правил auditd <auditd>
+  auditd
+  ntp
