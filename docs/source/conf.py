@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Ansible IaC test doc'
+project = 'Ansible IaC'
 copyright = '2020, Dmitriy Prigoda'
 author = 'Dmitriy Prigoda'
 
