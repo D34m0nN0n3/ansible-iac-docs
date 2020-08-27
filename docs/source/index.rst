@@ -2,15 +2,20 @@
 ============================================================
 
 Данная документация описывает параметры при использование Ansible Roles для базовой настройки серверов на базе операционных систем Red Hat.
+Исходный код сценариев находится по адресу: `https://github.com/D34m0nN0n3/ansible-iac`_.
+.. _`https://github.com/D34m0nN0n3/ansible-iac`: https://github.com/D34m0nN0n3/ansible-iac
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+  intro
   auditd
   ntp
+  mpuser
 
-Индексы
-=======
+Ссылки на дополнительную докумкнтацию:
+--------------------------------------
 
-* :ref:`search`
+* 
+*
