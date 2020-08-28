@@ -19,5 +19,8 @@
 Ссылки на дополнительную докумкнтацию:
 --------------------------------------
 
-* 
-*
+* `Ansible installation guide <https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>`_.
+* `Ansible Documentations <https://docs.ansible.com>`_.
+* `Ansible tags <https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html>`_.
+* `Connection methods <https://docs.ansible.com/ansible/latest/user_guide/connection_details.html>`_.
+* `Ansible passing sudo <https://8gwifi.org/docs/ansible-sudo-ssh-password.jsp>`_.
