@@ -14,6 +14,7 @@
   ntp
   auditd
   sysconfig
+  users
   mpuser
 
 Ссылки на дополнительную докумкнтацию:
