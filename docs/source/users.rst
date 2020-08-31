@@ -33,7 +33,7 @@ lock_pass                     Блокирует или разблокирует
 adminvp_pass                  Устанавливает пароль *adminvp[1,2]*, не обновляется при изменение переменной.
 ============================= =============================================================================================
 
-.. attention::  **В переменные устрановливающие пароли указываются хеши sha-512. Подробно описанно здесь: `how-do-i-generate-encrypted-passwords-for-the-user-module <https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#how-do-i-generate-encrypted-passwords-for-the-user-module>`_ .**
+.. attention::  **В переменные устрановливающие пароли указываются хеши sha-512. Подробно описанно здесь: `how-do-i-generate-encrypted-passwords-for-the-user-module <https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#how-do-i-generate-encrypted-passwords-for-the-user-module>`_. .**
 
 ----
 
