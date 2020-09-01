@@ -233,7 +233,7 @@ latex_elements = {
 \usepackage[english, russian]{babel}
 \setdefaultlanguage{russian}
 \setotherlanguage{english}
-\setmainfont{DejaVu Serif}
+\setmainfont{DejaVu Sans}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
@@ -244,7 +244,7 @@ latex_elements = {
 \usepackage{geometry}
   \geometry{left=20mm, right=15mm}
 ''',
-    'preamble': l'''
+    'preamble': r'''
 \usepackage[titles]{tocloft}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
