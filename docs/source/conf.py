@@ -233,7 +233,7 @@ latex_elements = {
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
-\usepackage[12pt]{extsizes}
+\usepackage[10pt]{extsizes}
 \usepackage{polyglossia}
 ''',
     'preamble': r'''
@@ -242,6 +242,7 @@ latex_elements = {
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
+\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
