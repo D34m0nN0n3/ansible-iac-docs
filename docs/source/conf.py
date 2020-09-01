@@ -101,6 +101,8 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for LaTeX output ---------------------------------------------
 
+latex_engine = 'xelatex'
+
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
@@ -109,8 +111,6 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-latex_engine = 'xelatex'
-latex_elements = {
     'fontpkg': r'''
 \documentclass[a4paper]{article}
 \usepackage[12pt]{extsizes}
