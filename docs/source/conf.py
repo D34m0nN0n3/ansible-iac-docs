@@ -241,13 +241,13 @@ latex_elements = {
 \usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{geometry}
-  \geometry{top=12mm, left=16mm, right=8mm, bottom=12mm}
+  \geometry{top=20mm, left=20mm, right=10mm, bottom=20mm}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
 \setcounter{tocdepth}{2}
 \usepackage{titlesec}
-\renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
+#\renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
 \renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
 \renewcommand{\cftpnumalign}{r} 
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
