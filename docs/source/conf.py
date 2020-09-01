@@ -109,13 +109,6 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-    'fontpkg': r'''
-\documentclass[a4paper]{article}
-\setdefaultlanguage{russian}
-\setotherlanguage{english}
-\usepackage[english, russian]{babel}
-\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
-''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
