@@ -97,9 +97,7 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 #---sphinx-themes-----
-import sphinx_theme
-html_theme = "stanford_theme"
-html_theme_path = [sphinx_theme.get_html_theme_path('stanford-theme')]
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for LaTeX output ---------------------------------------------
 
