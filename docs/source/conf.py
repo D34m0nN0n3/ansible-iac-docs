@@ -57,7 +57,9 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+import sphinx_theme
+html_theme = "stanford_theme"
+html_theme_path = [sphinx_theme.get_html_theme_path('stanford-theme')]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -81,11 +83,19 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
+    'fontpkg': r'''
+\documentclass[a4paper]{article}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\usepackage[english, russian]{babel}
+\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
+''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
+'extraclassoptions': 'openany,oneside',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -221,28 +231,3 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
-
-# -- Options for LaTeX output ---------------------------------------------
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-
-latex_engine = 'xelatex'
-latex_use_xindy = False
-latex_elements = {
-    'fontpkg': r'''
-\documentclass[a4paper]{article}
-\usepackage[T2A]{fontenc}
-\usepackage{polyglossia}
-\setcounter{secnumdepth}{0}
-\setdefaultlanguage{russian}
-\setotherlanguage{english}
-\usepackage[english, russian]{babel}
-\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
-''',
-    'preamble': '\\usepackage[UTF8]{ctex}\n',
-    'extraclassoptions': 'openany,oneside',
-    'inputenc': '',
-    'utf8extra': '',
-}
