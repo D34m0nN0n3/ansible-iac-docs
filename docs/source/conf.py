@@ -240,7 +240,6 @@ latex_elements = {
 \usepackage{indentfirst}
 \usepackage{polyglossia}
 \usepackage{fontspec}
-\usepackage{setspace}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{geometry}
@@ -252,10 +251,6 @@ latex_elements = {
 \usepackage{titlesec}
 \renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
 \renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
-\addtolength{\cftchapnumwidth}{0mm} 
-\addtolength{\cftsecnumwidth}{-3mm} 
-\cftsetpnumwidth{6mm} 
-\cftsetrmarg{8mm} 
 \renewcommand{\cftpnumalign}{r} 
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
