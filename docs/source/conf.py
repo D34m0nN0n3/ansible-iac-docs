@@ -240,7 +240,6 @@ latex_elements = {
 \usepackage{polyglossia}
 \usepackage{fontspec}
 \usepackage{multicol}
-\usepackage{tikz}
 \usepackage{geometry}
   \geometry{top=12mm, left=16mm, right=8mm, bottom=12mm}
 ''',
