@@ -113,7 +113,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
     'fontpkg': r'''
 \documentclass[a4paper]{article}
-\usepackage[12pt]{extsizes}
+\usepackage[10pt]{extsizes}
 \usepackage[margin=1.0in]{geometry}
 \usepackage{polyglossia}
 \setcounter{secnumdepth}{0}
@@ -121,12 +121,14 @@ latex_elements = {
 \setotherlanguage{english}
 \usepackage{fontspec}
 \defaultfontfeatures{Scale=MatchLowercase}
+\setmainfont{Sans}
+\setsansfont{Serif}
+\setmonofont{Sans Mono}
 ''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
-'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 'extraclassoptions': 'openany,oneside',
 }
 
