@@ -1,1 +1,1 @@
-python-docs-theme
+sphinx_theme
