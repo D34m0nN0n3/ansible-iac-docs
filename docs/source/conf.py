@@ -228,10 +228,12 @@ epub_exclude_files = ['search.html']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 
+latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
     'fontpkg': r'''
 \documentclass[a4paper]{article}
+\usepackage[T2A]{fontenc}
 \usepackage{polyglossia}
 \setcounter{secnumdepth}{0}
 \setdefaultlanguage{russian}
@@ -241,4 +243,6 @@ latex_elements = {
 ''',
     'preamble': '\\usepackage[UTF8]{ctex}\n',
     'extraclassoptions': 'openany,oneside',
+    'inputenc': '',
+    'utf8extra': '',
 }
