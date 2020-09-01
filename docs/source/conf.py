@@ -239,6 +239,7 @@ latex_elements = {
 \setcounter{secnumdepth}{0}
 \setdefaultlanguage{russian}
 \setotherlanguage{english}
+\usepackage[english, russian]{babel}
 \usepackage{fontspec}
 \defaultfontfeatures{Scale=MatchLowercase}
 \setmainfont{DejaVu Sans}
