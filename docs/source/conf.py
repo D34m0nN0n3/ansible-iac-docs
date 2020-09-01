@@ -237,7 +237,6 @@ latex_elements = {
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
-\usepackage{indentfirst}
 \usepackage{polyglossia}
 \usepackage{fontspec}
 \usepackage{multicol}
