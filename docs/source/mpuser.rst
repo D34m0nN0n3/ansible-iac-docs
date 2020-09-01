@@ -114,4 +114,4 @@ Var                           INFO
 mpserver                      Переменная задает ACL для подключения через SSH. Можно указать список.
 ============================= ==========================================================================================
 
-.. hint:: Пример: "mpserver=['mpuser@<xxx.xxx.xxx.*>', 'mpuser@<yyy.yyy.yyy.yyy>']" Где "xxx.xxx.xxx.*" - IP сети, "yyy.yyy.yyy.yyy" - IP хоста.
+.. hint:: Пример: "mpserver=['mpuser@<xxx.xxx.xxx.*>','mpuser@<yyy.yyy.yyy.yyy>']" Где "xxx.xxx.xxx.*" - IP сети, "yyy.yyy.yyy.yyy" - IP хоста.
