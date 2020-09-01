@@ -232,15 +232,8 @@ latex_elements = {
 \usepackage[english, russian]{babel}
 \setdefaultlanguage{russian}
 \setotherlanguage{english}
-\setmainfont{DejaVu Sans}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-\usepackage{geometry}
-  \geometry{left=20mm, right=10mm}
 ''',
     'preamble': r'''
-\usepackage[titles]{tocloft}
-\setcounter{tocdepth}{2}
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
