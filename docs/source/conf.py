@@ -114,6 +114,9 @@ latex_elements = {
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
+'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+'printindex': r'\footnotesize\raggedright\printindex',
+'figure_align': 'H',
 'extraclassoptions': 'openany,oneside',
 }
 
