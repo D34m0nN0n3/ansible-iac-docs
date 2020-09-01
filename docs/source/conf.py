@@ -241,6 +241,7 @@ latex_elements = {
 \usepackage{polyglossia}
 \usepackage{fontspec}
 \usepackage{setspace}
+\renewcommand{\baselinestretch}{1.47}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{geometry}
@@ -251,9 +252,9 @@ latex_elements = {
 \setcounter{tocdepth}{2}
 \usepackage{titlesec}
 \titleformat{\chapter}[block]{\filcenter}{\bfseries\chaptertitlename\bfseries\thechapter}{8mm}{\bfseries}{}
-\titleformat{\section}[block]{\bfseries\normalsize}{\hspace{1.25cm}\thesection}{1ex}{}
-\titlespacing*{\chapter}{0mm}{-30pt}{24pt}
-\titlespacing*{\section}{0pt}{34pt}{24pt}[25pt]
+\titleformat{\section}[block]{\bfseries\normalsize}{\hspace{0.75cm}\thesection}{1ex}{}
+\titlespacing*{\chapter}{0mm}{-30pt}{14pt}
+\titlespacing*{\section}{0pt}{18pt}{14pt}[15pt]
 \renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
 \renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
 \addtolength{\cftchapnumwidth}{0mm} 
@@ -263,7 +264,7 @@ latex_elements = {
 \renewcommand{\cftpnumalign}{r} 
 \setcounter{tocdepth}{1} 
 \setlength{\cftbeforetoctitleskip}{-26pt} 
-\setlength{\cftaftertoctitleskip}{19pt} 
+\setlength{\cftaftertoctitleskip}{14pt} 
 \setlength{\cftbeforechapskip}{-2mm} 
 \setlength{\cftbeforesecskip}{-2mm} 
 \setlength{\cftchapindent}{0mm} 
