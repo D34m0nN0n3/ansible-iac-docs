@@ -241,20 +241,15 @@ latex_elements = {
 \usepackage{polyglossia}
 \usepackage{fontspec}
 \usepackage{setspace}
-\renewcommand{\baselinestretch}{1.47}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{geometry}
-  \geometry{top=14mm, left=16mm, right=8mm, bottom=14mm}
+  \geometry{top=12mm, left=16mm, right=8mm, bottom=12mm}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
 \setcounter{tocdepth}{2}
 \usepackage{titlesec}
-\titleformat{\chapter}[block]{\filcenter}{\bfseries\chaptertitlename\bfseries\thechapter}{8mm}{\bfseries}{}
-\titleformat{\section}[block]{\bfseries\normalsize}{\hspace{0.75cm}\thesection}{1ex}{}
-\titlespacing*{\chapter}{0mm}{-30pt}{14pt}
-\titlespacing*{\section}{0pt}{18pt}{14pt}[15pt]
 \renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
 \renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
 \addtolength{\cftchapnumwidth}{0mm} 
@@ -262,16 +257,6 @@ latex_elements = {
 \cftsetpnumwidth{6mm} 
 \cftsetrmarg{8mm} 
 \renewcommand{\cftpnumalign}{r} 
-\setcounter{tocdepth}{1} 
-\setlength{\cftbeforetoctitleskip}{-26pt} 
-\setlength{\cftaftertoctitleskip}{14pt} 
-\setlength{\cftbeforechapskip}{-2mm} 
-\setlength{\cftbeforesecskip}{-2mm} 
-\setlength{\cftchapindent}{0mm} 
-\setlength{\cftsecindent}{12.5mm} 
-\renewcommand{\cftchappresnum}{Глава~} 
-\newlength{\mylen} 
-\settowidth{\mylen}{\cftchappresnum} 
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
     'passoptionstopackages': r'''
