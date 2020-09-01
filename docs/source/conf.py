@@ -237,21 +237,27 @@ latex_elements = {
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
+\usepackage{indentfirst}
 \usepackage{polyglossia}
 \usepackage{fontspec}
+\usepackage{setspace}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{geometry}
-  \geometry{left=20mm, right=15mm}
+  \geometry{top=5mm, left=14mm, right=8mm, bottom=5mm}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\cftsetpnumwidth {14mm}\cftsetrmarg{8mm}
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
+\setlength{\cftsecnumwidth}{1cm}
+\renewcommand{\cftaftertoctitle}{\thispagestyle{empty}}
 \setcounter{tocdepth}{2}
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
+''',
+    'passoptionstopackages': r'''
+\PassOptionsToPackage{svgnames}{xcolor}',
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
