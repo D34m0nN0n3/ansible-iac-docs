@@ -231,32 +231,10 @@ epub_exclude_files = ['search.html']
 latex_engine = 'xelatex'
 
 latex_elements = {
-    'fontpkg': r'''
-\documentclass[a4paper]{article}
-\usepackage[12pt]{extsizes}
-\usepackage[margin=1.0in]{geometry}
-\usepackage{polyglossia}
-\setcounter{secnumdepth}{0}
-\setdefaultlanguage{russian}
-\setotherlanguage{english}
-\usepackage[english, russian]{babel}
-\usepackage{fontspec}
-\defaultfontfeatures{Scale=MatchLowercase}
-\setmainfont{DejaVu Sans}
-\setsansfont{DejaVu Serif}
-\setmonofont{DejaVu Sans Mono}
-\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
-''',
-    'preamble': r'''
-\setcounter{tocdepth}{2}
-\usepackage[titles]{tocloft}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
-''',
-    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
-    'printindex': r'\footnotesize\raggedright\printindex',
-    'extraclassoptions': 'openany,oneside',
-    'figure_align': 'H',
+'preamble': '\\usepackage[utf8]{inputenc}',
+'babel': '\\usepackage[russian]{babel}',
+'cmappkg': '\\usepackage{cmap}',
+'fontenc': '\usepackage[T1,T2A]{fontenc}',
+'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
+'extraclassoptions': '\openany,oneside',
 }
