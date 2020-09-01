@@ -247,9 +247,7 @@ latex_elements = {
 \usepackage[titles]{tocloft}
 \setcounter{tocdepth}{2}
 \usepackage{titlesec}
-#\renewcommand{\cfttoctitlefont}{\bfseries\centerline} 
 \renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
-\renewcommand{\cftpnumalign}{r} 
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
     'passoptionstopackages': r'''
