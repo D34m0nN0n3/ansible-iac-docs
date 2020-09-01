@@ -121,15 +121,11 @@ latex_elements = {
 \setotherlanguage{english}
 \usepackage{fontspec}
 \defaultfontfeatures{Scale=MatchLowercase}
-#\setmainfont{DejaVu Sans}
-#\setsansfont{DejaVu Serif}
-#\setmonofont{DejaVu Sans Mono}
 ''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
-#'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 'extraclassoptions': 'openany,oneside',
 }
 
