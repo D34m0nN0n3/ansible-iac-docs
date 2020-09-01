@@ -224,12 +224,16 @@ epub_exclude_files = ['search.html']
 
 # -- Options for LaTeX output ---------------------------------------------
 
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+
 latex_engine = 'xelatex'
+
 latex_elements = {
     'fontpkg': r'''
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english, russian]{babel}
 \setdefaultlanguage{russian}
 \setotherlanguage{english}
 ''',
