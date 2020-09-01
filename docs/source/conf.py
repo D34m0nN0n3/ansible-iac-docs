@@ -229,7 +229,7 @@ epub_exclude_files = ['search.html']
 #  author, documentclass [howto, manual, or own class]).
 
 latex_engine = 'xelatex'
-
+latex_use_xindy = False
 latex_elements = {
     'fontpkg': r'''
 \documentclass[a4paper]{article}
@@ -240,5 +240,6 @@ latex_elements = {
 \usepackage[english, russian]{babel}
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
+    'preamble': '\\usepackage[UTF8]{ctex}\n',
     'extraclassoptions': 'openany,oneside',
 }
