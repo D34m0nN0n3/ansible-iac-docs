@@ -235,13 +235,16 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
 \usepackage{polyglossia}
+\usepackage{multicol}
+\usepackage{tikz}
 ''',
-    'preamble': r'''
+    'preamble': l'''
 \usepackage[titles]{tocloft}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
 \setlength{\cftsecnumwidth}{1.25cm}
+\setcounter{tocdepth}{2}
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
