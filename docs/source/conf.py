@@ -228,7 +228,6 @@ epub_exclude_files = ['search.html']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 
-latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
     'fontpkg': r'''
