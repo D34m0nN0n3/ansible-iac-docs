@@ -227,7 +227,10 @@ epub_exclude_files = ['search.html']
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
-\documentclass[a4paper]{book}
+\documentclass[a4paper, 12pt]{book}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
 \setdefaultlanguage{russian}
 \setotherlanguage{english}
 \setmainfont{DejaVu Serif}
@@ -235,8 +238,11 @@ latex_elements = {
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
 \usepackage{polyglossia}
+\usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{tikz}
+\usepackage{geometry}
+  \geometry{left=20mm, right=15mm}
 ''',
     'preamble': l'''
 \usepackage[titles]{tocloft}
