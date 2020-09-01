@@ -237,8 +237,6 @@ latex_elements = {
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
 \usepackage[10pt]{extsizes}
-\usepackage{polyglossia}
-\usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{geometry}
   \geometry{top=20mm, left=20mm, right=10mm, bottom=20mm}
@@ -246,12 +244,7 @@ latex_elements = {
     'preamble': r'''
 \usepackage[titles]{tocloft}
 \setcounter{tocdepth}{2}
-\usepackage{titlesec}
-\renewcommand{\cftaftertoctitle}{\thispagestyle{empty}} 
 \let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
-''',
-    'passoptionstopackages': r'''
-\PassOptionsToPackage{svgnames}{xcolor}',
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
