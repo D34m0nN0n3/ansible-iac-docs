@@ -231,10 +231,14 @@ epub_exclude_files = ['search.html']
 latex_engine = 'xelatex'
 
 latex_elements = {
-'preamble': '\\usepackage[utf8]{inputenc}',
-'babel': '\\usepackage[russian]{babel}',
-'cmappkg': '\\usepackage{cmap}',
-'fontenc': '\usepackage[T1,T2A]{fontenc}',
-'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
-'extraclassoptions': '\openany,oneside',
+    'fontpkg': r'''
+\documentclass[a4paper]{article}
+\usepackage{polyglossia}
+\setcounter{secnumdepth}{0}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\usepackage[english, russian]{babel}
+\let\oldmultirow\multirow\def\multirow#1#2{\oldmultirow{#1}{=}}
+''',
+    'extraclassoptions': 'openany,oneside',
 }
