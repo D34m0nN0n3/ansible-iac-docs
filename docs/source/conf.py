@@ -121,9 +121,9 @@ latex_elements = {
 \setotherlanguage{english}
 \usepackage{fontspec}
 \defaultfontfeatures{Scale=MatchLowercase}
-\setmainfont{Sans}
-\setsansfont{Serif}
-\setmonofont{Sans Mono}
+\setmainfont{DejaVu Sans}
+\setsansfont{DejaVu Serif}
+\setmonofont{DejaVu Sans Mono}
 ''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
