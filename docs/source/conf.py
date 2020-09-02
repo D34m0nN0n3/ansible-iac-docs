@@ -141,8 +141,6 @@ latex_documents = [
   ('index', u'Проект по базовой настройке операционных систем RHEL/CentOS.',
    u'Автор проекта: Пригода Дмитрий Владимирович', 'manual'),
 ]
-   ),
-]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
