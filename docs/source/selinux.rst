@@ -33,6 +33,8 @@ selinux_state                 Устанавливает режим. По умо
 
 .. tip:: В процессе адаптации и внедрения, опытной эксплуатации рекомендуется использовать режим: *Permissive*. В промышленной эксплуатации необходимо настроить режим: *Enforcing*. 
 
+.. attention:: Документация по SELINUX: `http://selinuxproject.org/page/Main_Page <http://selinuxproject.org/page/Main_Page>`_.
+
 Теги
 ~~~~
 
