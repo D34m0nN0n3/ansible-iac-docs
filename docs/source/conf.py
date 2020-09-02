@@ -130,6 +130,7 @@ latex_elements = {
 'cmappkg': '\\usepackage{cmap}',
 'fontenc': '\usepackage[T1,T2A]{fontenc}',
 'extraclassoptions': 'openany,oneside',
+'figure_align': 'H',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
