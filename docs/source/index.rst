@@ -14,6 +14,7 @@
   ntp
   auditd
   sysconfig
+  sshd
   cockpit
   users
   mpuser
