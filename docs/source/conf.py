@@ -138,7 +138,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Ansible-IaC', u'Проект по базовой настройке операционных систем RHEL/CentOS.',
+  ('index', u'Проект по базовой настройке операционных систем RHEL/CentOS.',
    u'Автор проекта: Пригода Дмитрий Владимирович', 'manual'),
 ]
 
