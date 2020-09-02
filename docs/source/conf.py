@@ -124,6 +124,7 @@ latex_elements = {
 \setmainfont{DejaVu Sans}
 \setsansfont{DejaVu Serif}
 \setmonofont{DejaVu Sans Mono}
+\usepackage{float}
 ''',
 'preamble': '\\usepackage[utf8]{inputenc}',
 'babel': '\\usepackage[russian]{babel}',
