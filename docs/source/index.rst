@@ -18,6 +18,7 @@
   cockpit
   users
   mpuser
+  firewall
   selinux
 
 Ссылки на дополнительную докумкнтацию:
