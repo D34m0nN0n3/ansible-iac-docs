@@ -21,6 +21,7 @@
   firewall
   selinux
   itma
+  ntbackup
   
 .. toctree::
    :maxdepth: 1
