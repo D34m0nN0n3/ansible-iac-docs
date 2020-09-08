@@ -1,5 +1,5 @@
-Ссылки на дополнительную докумкнтацию:
-======================================
+Ссылки на дополнительную докумкнтацию
+=====================================
 
 * `Ansible installation guide <https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>`_.
 * `Ansible Documentations <https://docs.ansible.com>`_.
