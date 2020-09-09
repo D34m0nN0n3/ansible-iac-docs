@@ -22,6 +22,7 @@
   selinux
   itma
   ntbackup
+  satellite
   
 .. toctree::
    :maxdepth: 1
