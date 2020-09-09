@@ -27,5 +27,6 @@
   
 .. toctree::
    :maxdepth: 1
-   :caption: Ссылки на дополнительную докумкнтацию
+   :caption: 
+  ebook
   finale
