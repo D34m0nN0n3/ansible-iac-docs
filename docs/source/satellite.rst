@@ -27,3 +27,5 @@
         :scale: 80 %
         :alt: Run Ansible
         :align: center
+
+.. tip:: Аналогично делается и для группы хостов.
